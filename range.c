@@ -2,9 +2,16 @@
 
 int main()
 {
-    for (int i = 1; i < 10; i++)
+    int guess;
+    printf("Enter a number between 1 and 10: ");
+    scanf("%d", &guess);
+    if (guess >= 1 && guess <= 10)
     {
-        printf("%d ", i);
+        printf("The number is within the range.\n");
+    }
+    else
+    {
+        printf("The number is not within the range.\n");
     }
     return 0;
 }
