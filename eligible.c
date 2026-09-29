@@ -11,4 +11,6 @@ int main()
     {
         printf("You are not eligible\n");
     }
+    
+    return 0;
 }
